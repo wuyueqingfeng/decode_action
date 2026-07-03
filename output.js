@@ -1,4 +1,4 @@
-//Fri Jul 03 2026 12:11:51 GMT+0000 (Coordinated Universal Time)
+//Fri Jul 03 2026 12:35:48 GMT+0000 (Coordinated Universal Time)
 //Base:<url id="cv1cref6o68qmpt26ol0" type="url" status="parsed" title="GitHub - echo094/decode-js: JS混淆代码的AST分析工具 AST analysis tool for obfuscated JS code" wc="2165">https://github.com/echo094/decode-js</url>
 //Modify:<url id="cv1cref6o68qmpt26olg" type="url" status="parsed" title="GitHub - smallfawn/decode_action: 世界上本来不存在加密，加密的人多了，也便成就了解密" wc="741">https://github.com/smallfawn/decode_action</url>
 var wYdiTJS, gY11gX, SuVphA, ZaR8pEJ, ZiOp353, A25mkZy, b5pVz7, xYu112W, XTOUZx, q0X3kX1, F7PgSVY, UaJIiM, ychURc;
@@ -230,7 +230,10 @@ q69MbZ(wYdiTJS = function () {
       for (ychURc = WtKAiO[0x0], usZ2lnn = Math.pow(WtKAiO[0x3], WtKAiO[0x3]), nWNosr = WtKAiO[0x4]; nWNosr != usZ2lnn;) {
         nl8aSc = PEPjrMe.val & PEPjrMe.position;
         PEPjrMe.position >>= WtKAiO[0x4];
-        WtKAiO[0x0] == PEPjrMe.position && (PEPjrMe.position = XTOUZx, PEPjrMe.val = q0X3kX1(PEPjrMe.index++));
+        if (WtKAiO[0x0] == PEPjrMe.position) {
+          PEPjrMe.position = XTOUZx;
+          PEPjrMe.val = q0X3kX1(PEPjrMe.index++);
+        }
         ychURc |= (nl8aSc > WtKAiO[0x0] ? WtKAiO[0x4] : WtKAiO[0x0]) * nWNosr;
         nWNosr <<= WtKAiO[0x4];
       }
@@ -240,7 +243,10 @@ q69MbZ(wYdiTJS = function () {
             for (ychURc = WtKAiO[0x0], usZ2lnn = Math.pow(WtKAiO[0x3], WtKAiO[0x8]), nWNosr = WtKAiO[0x4]; nWNosr != usZ2lnn;) {
               nl8aSc = PEPjrMe.val & PEPjrMe.position;
               PEPjrMe.position >>= WtKAiO[0x4];
-              WtKAiO[0x0] == PEPjrMe.position && (PEPjrMe.position = XTOUZx, PEPjrMe.val = q0X3kX1(PEPjrMe.index++));
+              if (WtKAiO[0x0] == PEPjrMe.position) {
+                PEPjrMe.position = XTOUZx;
+                PEPjrMe.val = q0X3kX1(PEPjrMe.index++);
+              }
               ychURc |= (nl8aSc > WtKAiO[0x0] ? WtKAiO[0x4] : WtKAiO[0x0]) * nWNosr;
               nWNosr <<= WtKAiO[0x4];
             }
@@ -252,7 +258,10 @@ q69MbZ(wYdiTJS = function () {
             for (ychURc = WtKAiO[0x0], usZ2lnn = Math.pow(WtKAiO[0x3], WtKAiO[0x9]), nWNosr = WtKAiO[0x4]; nWNosr != usZ2lnn;) {
               nl8aSc = PEPjrMe.val & PEPjrMe.position;
               PEPjrMe.position >>= WtKAiO[0x4];
-              WtKAiO[0x0] == PEPjrMe.position && (PEPjrMe.position = XTOUZx, PEPjrMe.val = q0X3kX1(PEPjrMe.index++));
+              if (WtKAiO[0x0] == PEPjrMe.position) {
+                PEPjrMe.position = XTOUZx;
+                PEPjrMe.val = q0X3kX1(PEPjrMe.index++);
+              }
               ychURc |= (nl8aSc > WtKAiO[0x0] ? WtKAiO[0x4] : WtKAiO[0x0]) * nWNosr;
               nWNosr <<= WtKAiO[0x4];
             }
@@ -271,7 +280,10 @@ q69MbZ(wYdiTJS = function () {
         for (ychURc = WtKAiO[0x0], usZ2lnn = Math.pow(WtKAiO[0x3], IbDvDf), nWNosr = WtKAiO[0x4]; nWNosr != usZ2lnn;) {
           nl8aSc = PEPjrMe.val & PEPjrMe.position;
           PEPjrMe.position >>= WtKAiO[0x4];
-          WtKAiO[0x0] == PEPjrMe.position && (PEPjrMe.position = XTOUZx, PEPjrMe.val = q0X3kX1(PEPjrMe.index++));
+          if (WtKAiO[0x0] == PEPjrMe.position) {
+            PEPjrMe.position = XTOUZx;
+            PEPjrMe.val = q0X3kX1(PEPjrMe.index++);
+          }
           ychURc |= (nl8aSc > WtKAiO[0x0] ? WtKAiO[0x4] : WtKAiO[0x0]) * nWNosr;
           nWNosr <<= WtKAiO[0x4];
         }
@@ -281,7 +293,10 @@ q69MbZ(wYdiTJS = function () {
               for (ychURc = WtKAiO[0x0], usZ2lnn = Math.pow(WtKAiO[0x3], WtKAiO[0x8]), nWNosr = WtKAiO[0x4]; nWNosr != usZ2lnn;) {
                 nl8aSc = PEPjrMe.val & PEPjrMe.position;
                 PEPjrMe.position >>= WtKAiO[0x4];
-                WtKAiO[0x0] == PEPjrMe.position && (PEPjrMe.position = XTOUZx, PEPjrMe.val = q0X3kX1(PEPjrMe.index++));
+                if (WtKAiO[0x0] == PEPjrMe.position) {
+                  PEPjrMe.position = XTOUZx;
+                  PEPjrMe.val = q0X3kX1(PEPjrMe.index++);
+                }
                 ychURc |= (nl8aSc > WtKAiO[0x0] ? WtKAiO[0x4] : WtKAiO[0x0]) * nWNosr;
                 nWNosr <<= WtKAiO[0x4];
               }
@@ -293,7 +308,10 @@ q69MbZ(wYdiTJS = function () {
               for (ychURc = WtKAiO[0x0], usZ2lnn = Math.pow(WtKAiO[0x3], WtKAiO[0x9]), nWNosr = WtKAiO[0x4]; nWNosr != usZ2lnn;) {
                 nl8aSc = PEPjrMe.val & PEPjrMe.position;
                 PEPjrMe.position >>= WtKAiO[0x4];
-                WtKAiO[0x0] == PEPjrMe.position && (PEPjrMe.position = XTOUZx, PEPjrMe.val = q0X3kX1(PEPjrMe.index++));
+                if (WtKAiO[0x0] == PEPjrMe.position) {
+                  PEPjrMe.position = XTOUZx;
+                  PEPjrMe.val = q0X3kX1(PEPjrMe.index++);
+                }
                 ychURc |= (nl8aSc > WtKAiO[0x0] ? WtKAiO[0x4] : WtKAiO[0x0]) * nWNosr;
                 nWNosr <<= WtKAiO[0x4];
               }
@@ -305,7 +323,10 @@ q69MbZ(wYdiTJS = function () {
               return zApXITG.join("");
             }
         }
-        WtKAiO[0x0] == TOgNOv && (TOgNOv = Math.pow(WtKAiO[0x3], IbDvDf), IbDvDf++);
+        if (WtKAiO[0x0] == TOgNOv) {
+          TOgNOv = Math.pow(WtKAiO[0x3], IbDvDf);
+          IbDvDf++;
+        }
         if (uQwOV4M[iTgSOkV]) {
           z_JR0x = uQwOV4M[iTgSOkV];
         } else {
@@ -5870,7 +5891,9 @@ function Env(o, t) {
         url: t
       } : t = t;
       let s = this.get;
-      "POST" === e && (s = this.post);
+      if ("POST" === e) {
+        s = this.post;
+      }
       return new Promise((r, i) => {
         s.call(this, t, (t, e, s) => {
           t ? i(t) : r(e);
@@ -6031,7 +6054,9 @@ function Env(o, t) {
       return r;
     }
     lodash_set(t, r, e) {
-      Object(t) === t && ((Array.isArray(r) ? r = r : r = r.toString().match(/[^.[\]]+/g) || []).slice(0, -1).reduce((t, e, s) => Object(t[e]) === t[e] ? t[e] : Math.abs(r[s + 1]) >> 0 == +r[s + 1] ? t[e] = [] : t[e] = {}, t)[r[r.length - 1]] = e);
+      if (Object(t) === t) {
+        (Array.isArray(r) ? r = r : r = r.toString().match(/[^.[\]]+/g) || []).slice(0, -1).reduce((t, e, s) => Object(t[e]) === t[e] ? t[e] : Math.abs(r[s + 1]) >> 0 == +r[s + 1] ? t[e] = [] : t[e] = {}, t)[r[r.length - 1]] = e;
+      }
       return t;
     }
     getdata(t) {
@@ -6128,7 +6153,9 @@ function Env(o, t) {
       this.got = this.got || require("got");
       this.cktough = this.cktough || require("tough-cookie");
       this.ckjar = this.ckjar || new this.cktough.CookieJar();
-      t && (t.headers = t.headers || {}, t) && (t.headers = t.headers || {}, 0 === t.headers.cookie) && 0 === t.headers.Cookie && 0 === t.cookieJar && (t.cookieJar = this.ckjar);
+      if (t && (t.headers = t.headers || {}, t) && (t.headers = t.headers || {}, 0 === t.headers.cookie) && 0 === t.headers.Cookie && 0 === t.cookieJar) {
+        t.cookieJar = this.ckjar;
+      }
     }
     tmout() {
       return new Promise((t, e) => {
@@ -6155,20 +6182,30 @@ function Env(o, t) {
           {}
         default:
           {
-            this.isSurge() && this.isNeedRewrite && (t.headers = t.headers || {}, Object.assign(t.headers, {
-              "X-Surge-Skip-Scripting": !1
-            }));
+            if (this.isSurge() && this.isNeedRewrite) {
+              t.headers = t.headers || {};
+              Object.assign(t.headers, {
+                "X-Surge-Skip-Scripting": !1
+              });
+            }
             $httpClient.get(t, (t, e, s) => {
-              !t && e && (e.body = s, e.statusCode = e.status || e.statusCode, e.status = e.statusCode);
+              if (!t && e) {
+                e.body = s;
+                e.statusCode = e.status || e.statusCode;
+                e.status = e.statusCode;
+              }
               a(t, e, s);
             });
             break;
           }
         case "Quantumult X":
           {
-            this.isNeedRewrite && (t.opts = t.opts || {}, Object.assign(t.opts, {
-              hints: !1
-            }));
+            if (this.isNeedRewrite) {
+              t.opts = t.opts || {};
+              Object.assign(t.opts, {
+                hints: !1
+              });
+            }
             $task.fetch(t).then(t => {
               var {
                 statusCode: t,
@@ -6194,7 +6231,9 @@ function Env(o, t) {
               try {
                 var s;
                 if (t.headers["set-cookie"]) {
-                  (s = t.headers["set-cookie"].map(this.cktough.Cookie.parse).toString()) && this.ckjar.setCookieSync(s, null);
+                  if (s = t.headers["set-cookie"].map(this.cktough.Cookie.parse).toString()) {
+                    this.ckjar.setCookieSync(s, null);
+                  }
                   e.cookieJar = this.ckjar;
                 }
               } catch (t) {
@@ -6243,11 +6282,18 @@ function Env(o, t) {
           {}
         default:
           {
-            this.isSurge() && this.isNeedRewrite && (t.headers = t.headers || {}, Object.assign(t.headers, {
-              "X-Surge-Skip-Scripting": !1
-            }));
+            if (this.isSurge() && this.isNeedRewrite) {
+              t.headers = t.headers || {};
+              Object.assign(t.headers, {
+                "X-Surge-Skip-Scripting": !1
+              });
+            }
             $httpClient[e](t, (t, e, s) => {
-              !t && e && (e.body = s, e.statusCode = e.status || e.statusCode, e.status = e.statusCode);
+              if (!t && e) {
+                e.body = s;
+                e.statusCode = e.status || e.statusCode;
+                e.status = e.statusCode;
+              }
               a(t, e, s);
             });
             break;
@@ -6255,9 +6301,12 @@ function Env(o, t) {
         case "Quantumult X":
           {
             t.method = e;
-            this.isNeedRewrite && (t.opts = t.opts || {}, Object.assign(t.opts, {
-              hints: !1
-            }));
+            if (this.isNeedRewrite) {
+              t.opts = t.opts || {};
+              Object.assign(t.opts, {
+                hints: !1
+              });
+            }
             $task.fetch(t).then(t => {
               var {
                 statusCode: t,
@@ -6332,7 +6381,9 @@ function Env(o, t) {
       for (const r in e) {
         let t = e[r];
         if (null != t && "" !== t) {
-          "object" == typeof t && (t = JSON.stringify(t));
+          if ("object" == typeof t) {
+            t = JSON.stringify(t);
+          }
           s += `${r}=${t}&`;
         }
       }
@@ -6396,13 +6447,15 @@ function Env(o, t) {
                     {
                       var o = {},
                         s = r.openUrl || r.url || r["open-url"] || t;
-                      if (s && Object.assign(o, {
+                      s && Object.assign(o, {
                         action: "open-url",
                         url: s
-                      }), (s = r["update-pasteboard"] || r.updatePasteboard || e) && Object.assign(o, {
+                      });
+                      (s = r["update-pasteboard"] || r.updatePasteboard || e) && Object.assign(o, {
                         action: "clipboard",
                         text: s
-                      }), i) {
+                      });
+                      if (i) {
                         let t, e, s;
                         if (i.startsWith("http")) {
                           t = i;
@@ -6451,9 +6504,11 @@ function Env(o, t) {
                         });
                       }
                       var n = r.mediaUrl || r["media-url"];
-                      (i?.startsWith("http") ? n = i : n = n) && Object.assign(e, {
-                        mediaUrl: n
-                      });
+                      if (i?.startsWith("http") ? n = i : n = n) {
+                        Object.assign(e, {
+                          mediaUrl: n
+                        });
+                      }
                       console.log(JSON.stringify(e));
                       return e;
                     }
@@ -6466,12 +6521,16 @@ function Env(o, t) {
                         });
                       }
                       n = r["media-url"] || r.mediaUrl;
-                      (i?.startsWith("http") ? n = i : n = n) && Object.assign(a, {
-                        "media-url": n
-                      });
-                      (s = r["update-pasteboard"] || r.updatePasteboard || e) && Object.assign(a, {
-                        "update-pasteboard": s
-                      });
+                      if (i?.startsWith("http") ? n = i : n = n) {
+                        Object.assign(a, {
+                          "media-url": n
+                        });
+                      }
+                      if (s = r["update-pasteboard"] || r.updatePasteboard || e) {
+                        Object.assign(a, {
+                          "update-pasteboard": s
+                        });
+                      }
                       console.log(JSON.stringify(a));
                       return a;
                     }
@@ -6515,30 +6574,40 @@ function Env(o, t) {
     }
     debug(...t) {
       if (this.logLevels[this.logLevel] <= this.logLevels.debug) {
-        0 < t.length && (this.logs = [...this.logs, ...t]);
+        if (0 < t.length) {
+          this.logs = [...this.logs, ...t];
+        }
         console.log("" + this.logLevelPrefixs.debug + t.map(t => t ?? String(t)).join(this.logSeparator));
       }
     }
     info(...t) {
       if (this.logLevels[this.logLevel] <= this.logLevels.info) {
-        0 < t.length && (this.logs = [...this.logs, ...t]);
+        if (0 < t.length) {
+          this.logs = [...this.logs, ...t];
+        }
         console.log("" + this.logLevelPrefixs.info + t.map(t => t ?? String(t)).join(this.logSeparator));
       }
     }
     warn(...t) {
       if (this.logLevels[this.logLevel] <= this.logLevels.warn) {
-        0 < t.length && (this.logs = [...this.logs, ...t]);
+        if (0 < t.length) {
+          this.logs = [...this.logs, ...t];
+        }
         console.log("" + this.logLevelPrefixs.warn + t.map(t => t ?? String(t)).join(this.logSeparator));
       }
     }
     error(...t) {
       if (this.logLevels[this.logLevel] <= this.logLevels.error) {
-        0 < t.length && (this.logs = [...this.logs, ...t]);
+        if (0 < t.length) {
+          this.logs = [...this.logs, ...t];
+        }
         console.log("" + this.logLevelPrefixs.error + t.map(t => t ?? String(t)).join(this.logSeparator));
       }
     }
     log(...t) {
-      0 < t.length && (this.logs = [...this.logs, ...t]);
+      if (0 < t.length) {
+        this.logs = [...this.logs, ...t];
+      }
       console.log(t.map(t => t ?? String(t)).join(this.logSeparator));
     }
     logErr(t, e) {
